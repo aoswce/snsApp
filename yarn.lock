@@ -6,3 +6,8 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@vant/weapp/-/weapp-1.0.0.tgz#7b046e7d6cffd2ca37815798810f1fb9e0937596"
   integrity sha512-VwnXnnI7aqi4RFPKYB17OR6+31ahuVadzJim2V8DTdh8xXRLgkAJWXEGjWnTP0BDZYbgCMBgXRnHYrsxoERH7g==
+
+vant-weapp@^0.5.27:
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/vant-weapp/-/vant-weapp-0.5.27.tgz#b029980dbdcc7f90aff9dc9db8e2bac5ef118d1b"
+  integrity sha512-wmbpPWbpIk/Nl022Yfu0LNV+rSBPxnWTsZePVo6De4FxY3SWw47+Ip6rxLgdnG00/FntbymgvVw4xlaW+WmC+Q==
