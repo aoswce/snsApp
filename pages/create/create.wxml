@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view>
+  <van-cell-group>
+    <van-cell title="可爱图文" value="" label="" border="{{false}}" icon="photo-o" />
+    <van-uploader file-list="{{ fileList }}" max-count="9" bind:after-read="afterRead" />
+    <van-field title-width="40px" value="" label="标题" left-icon="label-o" placeholder="请输入可爱标题" autosize border="{{ false }}" />
+    <van-field title-width="40px" size="100" value="{{ message }}" label="正文" left-icon="bookmark-o" type="textarea" placeholder="请输入正文" autosize border="{{ false }}" />
+    <van-cell title="定位" value="" label="" border="{{ false }}" icon="location-o" is-link url="" link-type="redirectTo" />
+    <van-cell title="分享" value="" label="" border="{{ false }}" icon="user-o" is-link />
+    <van-cell title="提醒" value="" label="" border="{{ false }}" icon="friends-o" is-link />
+    <van-cell title="" value="" label="" border="{{ false }}">
+      <van-button size="normal" block color="#72a2dd">发送</van-button>
+    </van-cell>
+  </van-cell-group>
+</view>
